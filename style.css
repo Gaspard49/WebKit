@@ -2,7 +2,40 @@
 /************************/
 /* 	    COLORS          */
 /************************/
+.color{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    text-align: center;
+    margin: 0;
+    align-items: flex-end;
 
+
+}
+
+#color1{
+
+    
+
+}
+
+.swatches{
+    margin-right: 100px;
+}
+
+
+
+.pull-left{
+    
+    border: black 1px solid;
+    height: 100px;
+    width: 200px;
+}
+
+.pull-right{
+    border: black 1px solid;
+    height: 100px;
+}
 
 
 
@@ -141,22 +174,111 @@
 /************************/
 
 
+.list-group {
+    list-style: none;
+  }
 
-
+.list-group-item {
+    width: 200px;
+    height: 25px;;
+    margin: 8px;
+    background-color: #FFCE54;
+    border-radius: 5px;
+  }
 
 /************************/
 /* 	    FORM INPUT      */
 /************************/
+
+/*dropdown*/
 .form-control{
     margin: 10px;
     width: 300px;
+    height: 30px;;
     border-radius: 5px;
-    border: 1px solid;
+    border: 1px solid  #FCD30B;
 }
 
+.dropdown{
+    margin: 10px;
+    color: #F6BB42;
+    border: 1px solid  #F6BB42;
+    height: 25px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+select:focus {
+    outline:none;
+}
+
+select:hover {
+    color: #F6BB42;
+    background: white;
+    }
+  
+  /* make it red instead (with with same width and style) */
+  .dropdown:active, .dropdown:hover {
+    outline-color:  #F6BB42;
+    
+  }
+
+/*checkbox*/
+.check{
+    margin: 10px; 
+    
+}
+
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border-radius: 4px;
+    height: 25px;
+    width: 25px;
+    background: #fff;
+    border: 1px solid  #FCD30B;
+    vertical-align: -8px;
+}
+
+input[type="checkbox"]:checked {
+    border-radius: 4px;
+    height: 25px;
+    width: 25px;
+    background:  #FCD30B;
+    border: #FCD30B;
+}
+
+input[type="checkbox"]:focus {
+        outline:none;
+}
+
+    /*radio*/
 
 
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    height: 25px;
+    width: 25px;
+    background: #fff;
+    border: 1px solid  #FCD30B;
+    border-radius: 50%;
+    vertical-align: -8px;
+}
 
+input[type="radio"]:checked {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    background:  #FCD30B;
+    border: 1px solid  #FCD30B;
+    }
+
+input[type="radio"]:focus {
+    outline:none;
+}
 /************************/
 /* 	    TYPOGRAPHY      */
 /************************/
