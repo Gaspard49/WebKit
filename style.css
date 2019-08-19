@@ -14,10 +14,180 @@ h1,h2,h3,h4,h5,h6{
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-
+    flex-wrap: wrap;
     height: 100vh;
 }
+
+
+
+/************************/
+/* 	    COLORS          */
+/************************/
+
+
+
+
+/************************/
+/* 	    BUTTONS         */
+/************************/
+.btn{
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    margin: 8px;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    box-shadow:none;
+    cursor: pointer;
+}
+
+.link{
+    color: #F6BB42;
+}
+
+.sm{
+    margin: 6px;
+    width: 80px;
+    height: 25px;
+}
+
+.lg{
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+
+.btn-primary{
+    color: white;
+    background-color: #F6BB42;
+}
+
+.btn-outline-primary{
+    color: #F6BB42;
+    border-color: #F6BB42;
+    background-color: transparent;
+}
+
+.btn-outline-secondary{
+    color: #FFCE54;
+    border-color: #FFCE54;
+    background-color: transparent;
+}
+
+
+.btn-outline-warning{
+    color: #FCD30B;
+    border-color: #FCD30B;
+    background-color: transparent;
+}
+
+.btn-outline-success{
+    color: #24B44C;
+    border-color: #24B44C;
+    background-color: transparent;
+}
+
+.btn-outline-danger{
+    color: #D40808;
+    border-color: #D40808;
+    background-color: transparent;
+}
+
+.btn-outline-info{
+    color: #0883BD;
+    border-color: #0883BD;
+    background-color: transparent;
+}
+
+
+.btn-primary:hover{
+    color: #F6BB42;
+    border-color: #F6BB42;
+    background-color: transparent;
+
+}
+
+.link:hover{
+    color: blue;
+}
+
+.btn-outline-primary:hover {
+    color: white;
+    border-color: transparent;
+    background-color: #F6BB42;
+
+}
+
+.btn-outline-secondary:hover {
+    color: white;
+    border-color: transparent;
+    background-color: #F6BB42;
+
+}
+
+.btn-outline-danger:hover {
+    color: white;
+    border-color: transparent;
+    background-color: #D40808;
+
+}
+
+.btn-outline-info:hover {
+    color: white;
+    border-color: transparent;
+    background-color: #0883BD;
+
+}
+
+.btn-outline-success:hover {
+    color: white;
+    border-color: transparent;
+    background-color: #24B44C;
+
+}
+
+.btn-outline-warning:hover {
+    color: white;
+    border-color: transparent;
+    background-color: #FCD30B;
+
+}
+
+
+
+/************************/
+/* 	    LISTS           */
+/************************/
+
+
+
+
+
+/************************/
+/* 	    FORM INPUT      */
+/************************/
+.form-control{
+    margin: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+
+
+
+/************************/
+/* 	    ICONS           */
+/************************/
+
+
+
+
+/************************/
+/* 	    CARDS           */
+/************************/
 
 /*Card : photo, title, text, button*/
 .card{
@@ -44,15 +214,4 @@ h1,h2,h3,h4,h5,h6{
 
 .card-text{
     margin: 0px 0 16px 0;    
-}
-
-.btn{
-    display: block;
-    text-decoration: none;
-    padding: 10px;
-} 
-
-.btn-primary{
-    color: white;
-    background-color: #F6BB42;
 }
