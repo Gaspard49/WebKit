@@ -147,7 +147,12 @@
 /************************/
 /* 	    FORM INPUT      */
 /************************/
-
+.form-control{
+    margin: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid;
+}
 
 
 
